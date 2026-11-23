@@ -1,6 +1,6 @@
 . Cómo podemos concatenar un número a un string? (.5 punto)
->>>a="hola profe pongame"
->>>b="10"
+>>>a="hola profe pongame "
+>>>b=10
 >>>a+str(b)
 'Hola profe pongame 10'
 2. De qué tipo son las variables justifica la respuesta (1.5 puntos)
@@ -12,7 +12,7 @@
  f = False + True
  g = True * 0
  a = "1"
->>> type(1)
+>>> type("1")
 <class 'int'> Al ser un entero siempre es int
  b = 1.0
 >>> type(1.0)
@@ -34,11 +34,11 @@
 <class 'int'> True se interpreta como 1 asi que 1*0 es 0 igual sin punto decimal
 3. Manipulando la variable palabra (concatenando y con los métodos de strings), convertirla (2 puntos)
  a. cambiar algunas letras por números
-	palabra = "hola" 
+	palabra = "Hola" 
 	en "Ho14"
  b. remover espacios
-	palabra = "  hola"
-	en "hola"
+	palabra = "  Hola"
+	en "Hola"
  c. cambiar mayúsculas y minúsculas
     palabra = "HoLa"
 	en "hOlA"
